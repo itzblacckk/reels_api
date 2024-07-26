@@ -22,7 +22,7 @@ export const POST = async (req: Request) => {
     }
 };
 
-// Function to handle GET requests if needed
+
 export const GET = async (req: Request) => {
     return NextResponse.json({ message: "This API only supports POST requests" }, { status: 405 });
 };
