@@ -1,7 +1,6 @@
 import { NextResponse } from "next/server";
 import instagramDl from "@sasmeee/igdl";
 
-// Function to handle POST requests
 export const POST = async (req: Request) => {
     try {
         const { url } = await req.json();
